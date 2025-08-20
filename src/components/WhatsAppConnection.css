@@ -216,3 +216,70 @@
   border-radius: 3px;
   resize: vertical;
 }
+
+/* Estilos para configuração de mensagem personalizada */
+.config-section {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  background: #f8f9fa;
+}
+
+.message-config label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+.message-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: vertical;
+  min-height: 60px;
+}
+
+.message-input:focus {
+  outline: none;
+  border-color: #25D366;
+  box-shadow: 0 0 0 2px rgba(37, 211, 102, 0.2);
+}
+
+.message-help {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.message-help p {
+  margin: 5px 0;
+}
+
+.message-help code {
+  background: #e9ecef;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+.send-preview {
+  margin: 15px 0;
+  padding: 10px;
+  background: white;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.message-preview {
+  background: #e3f2fd;
+  padding: 10px;
+  border-radius: 5px;
+  font-style: italic;
+  color: #1976d2;
+  border-left: 4px solid #2196f3;
+}
